@@ -53,8 +53,8 @@ function Projects() {
         'Z.P.G 쇼핑몰 페이지 입니다. 로그인 후에 장바구니 이용이 가능하고 여러 이벤트에 참여하여 혜택을 받을 수 있습니다.',
       projectTech: ['Next.js', 'Node.js', 'MongoDB', 'Clerk'],
       projectExternalLinks: {
-        github: 'https://github.com/leeazyone/clerk2',
-        externalLink: 'https://clerk2-nu.vercel.app/',
+        github: 'https://github.com/leeazyone/zpg-shopping-mall',
+        externalLink: 'https://ex-sigma.vercel.app/',
       },
     },
   ]
@@ -89,7 +89,6 @@ function Projects() {
                 initial='hidden'
                 whileInView='visible'
                 viewport={{ once: true }}
-                transition={{ duration: 0.6 }}
                 variants={{
                   visible: { opacity: 1, y: -50 },
                   hidden: { opacity: 0, y: 0 },

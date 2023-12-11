@@ -35,14 +35,14 @@ function About() {
           </p>
           {/* 기술 스택 목록 */}
           <ul className='about-grid-info-list'>
-            <li className='about-grid-info-list-item'>React</li>
+            <li className='about-grid-info-list-item'>ISTJ</li>
 
-            <li className='about-grid-info-list-item'>Next.js</li>
+            <li className='about-grid-info-list-item'>MUSIC</li>
 
-            <li className='about-grid-info-list-item'>Node.js</li>
+            <li className='about-grid-info-list-item'>TRIP</li>
 
-            <li className='about-grid-info-list-item'>HTML</li>
-            <li className='about-grid-info-list-item'>CSS</li>
+            <li className='about-grid-info-list-item'>FOOD</li>
+            <li className='about-grid-info-list-item'>MOVIE</li>
           </ul>
         </div>
         <div className='about-grid-photo'>
