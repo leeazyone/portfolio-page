@@ -5,8 +5,6 @@ function Email() {
     // 애니메이션
     <motion.div
       className='email'
-      initial={{ opacity: 0 }} // 초기 상태에서 투명도 0으로 설정
-      animate={{ opacity: 1 }} // 애니메이션 동안 투명도 1로 변경
       transition={{
         duration: 0.3, // 애니메이션 지속 시간 설정
         ease: 'easeInOut',

@@ -9,14 +9,12 @@
     gap: 0.5rem;
     &-item {
       font-size: var(--tlarge2);
-      transition: 0.3s ease-in-out;
       display: flex;
       justify-content: center;
       align-items: center;
       &-link {
         padding: 10px;
         color: var(--lightest-slate);
-        transition: 0.3s ease-in-out;
         outline: 2px dashed transparent;
         &:hover {
           color: var(--theme-color);

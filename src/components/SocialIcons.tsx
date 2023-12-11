@@ -32,12 +32,9 @@ function SocialIcons() {
     //애니메이션 효과
     <motion.div
       className='social-icons'
-      initial={{ opacity: 0 }} // 초기 상태에서 투명도 0으로 설정
-      animate={{ opacity: 1 }} // 애니메이션 동안 투명도 1로 변경
       transition={{
         duration: 0.3, // 애니메이션 지속 시간 설정
         ease: 'easeInOut',
-        delay: 1.95, // 애니메이션 시작 전 딜레이 설정
       }}
     >
       <ul className='social-icons-list'>
